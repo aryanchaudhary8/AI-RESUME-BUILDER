@@ -29,7 +29,7 @@ function Dashboard() {
                 { title },
                 {
                     headers: {
-                        Authorization: token
+                        Authorization: `Bearer ${token}`
                     }
                 }
             );
